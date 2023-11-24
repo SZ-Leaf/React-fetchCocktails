@@ -31,7 +31,7 @@ function CocktailRandom(){
                <p> {randomCocktail.strDrink} </p>
             </article>
         ) : (
-         <p>Cocktails Random en cours de Chargement</p>
+         <p>Random Cocktail still loading</p>
         )}
       </main>
 
