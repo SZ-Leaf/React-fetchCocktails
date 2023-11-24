@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import CocktailsPage from './pages/CocktailsPage';
 import HomePage from './pages/HomePage';
+import CocktailRandom from "./pages/CocktailRandom";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/fetch" element={<CocktailsPage />} />
+        <Route path="/random" element={<CocktailRandom />} />
       </Routes>
     </BrowserRouter>
   );
